@@ -82,6 +82,7 @@ print(suspicious_dates)
 
 print("version updated!")
 print("version updated again!")
+print("sync")
 
 plt.plot(x,y,'b+:',label='data')
 plt.plot(x,models.gaus(x,*popt),'ro:',label='fit')
